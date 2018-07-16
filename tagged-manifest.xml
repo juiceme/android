@@ -6,6 +6,7 @@
   <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <remote fetch="https://github.com/sonyxperiadev/" name="sony"/>
   <remote fetch="https://github.com/mer-hybris/" name="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
+  <remote fetch="https://github.com/juiceme/" name="juiceme" revision="juiceme_xperiax_mods"/>
   
   <default remote="aosp" revision="refs/tags/android-6.0.1_r80" sync-j="4"/>
   
@@ -27,7 +28,7 @@
   <project name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="sony-patches" revision="140e47c0deac29b4fe12408f450ba8200aa469bb" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="sony-patches" revision="c35f8b426620c458c94048e55a884a9c0b91b1e4" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_hardware_ril" path="hardware/ril" remote="sony-patches" revision="4e15283fb76b9af5c286dda4cdd2e57e9e22ed6c" upstream="sony-aosp-6.0.1_r80-20170902"/>
-  <project name="android_kernel_sony_msm" path="kernel/sony/msm" remote="hybris-patches" revision="13fedfc62120959f2348f68659770a270c89c27f" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
+  <project name="android_kernel_sony_msm" path="kernel/sony/msm" remote="juiceme" revision="a0f21a38c4d0d3c429edc84f3e27d25b461bb0a9" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_system_core" path="system/core" remote="hybris-patches" revision="21e528ee2383087406d627f173f890a5cd938914" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <project name="camera" path="hardware/qcom/camera" remote="sony" revision="b66cda07a10d0ff2b043f6d391d62d938a1cf203" upstream="aosp/LA.BR.1.3.3_rb2.14"/>
   <project name="device-sony-common" path="device/sony/common" remote="hybris-patches" revision="43097e0a590d45dad286aba2003001c2d596749b" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
@@ -39,7 +40,7 @@
   <project name="device/common" revision="762617a12642c9de3e3ce66b26f6c8b122c06e0f" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="droid-hal-f5121" path="rpm" remote="hybris" revision="6bbc11816481f89476b0c4a60ee592e3dc91f4e1" upstream="master"/>
-  <project name="hybris-boot" path="hybris/hybris-boot" remote="hybris" revision="837e5f9ac6025edc838c9dfc235b251872202b0a" upstream="master"/>
+  <project name="hybris-boot" path="hybris/hybris-boot" remote="juiceme" revision="d2766354f6a525e6d9728d05bce506ea9a9b9d2d" upstream="master"/>
   <project name="macaddrsetup" path="vendor/sony-oss/macaddrsetup" remote="sony" revision="dceef471f223dbea9d87fdbec98c5e05d961758d" upstream="master"/>
   <project name="mer-kernel-check" path="hybris/mer-kernel-check" remote="hybris" revision="39b5ad47853e7cafe11c81c0ba4d71ba550f31c3" upstream="master"/>
   <project name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-6.0.1_r80"/>
